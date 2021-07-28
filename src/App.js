@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useLayoutEffect, useState } from "react";
 import { getHotManga } from "./api";
+import { MangaGrid } from "./MangaGrid";
 export default function App() {
   const [mangas, setMangas] = useState([]);
 
@@ -26,6 +27,8 @@ export default function App() {
           🔥
         </span>
       </h1>
+
+      <MangaGrid mangas={mangas} />
     </div>
   );
 }
