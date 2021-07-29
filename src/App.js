@@ -1,5 +1,4 @@
-import axios from "axios";
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { getHotManga } from "./api";
 import { MangaGrid } from "./MangaGrid";
 export default function App() {
@@ -17,7 +16,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="max-w-2xl flex flex-col mx-auto p-4 bg-red-700">
+    <div className=" p-4 bg-red-700">
       <h1 className="text-2xl text-center font-bold">
         <span role="img" aria-label="fire">
           🔥
