@@ -16,14 +16,14 @@ export default function App() {
   }, []);
 
   return (
-    <div className=" p-4 bg-red-700">
-      <h1 className="text-2xl text-center font-bold">
+    <div className=" sm:p-4 bg-yellow-500">
+      <h1 className="text-xl sm:text-4xl text-center font-bold">
         <span role="img" aria-label="fire">
-          🔥
-        </span>{" "}
-        Hot Mangas{" "}
+          📚
+        </span>
+        Mangadex
         <span role="img" aria-label="fire">
-          🔥
+          📚
         </span>
       </h1>
 
